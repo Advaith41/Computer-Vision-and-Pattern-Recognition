@@ -1,15 +1,15 @@
-**Recognition Using Deep Networks**
+Recognition Using Deep Networks
 
-_**Overview:**_
+Overview:
 This project focuses on training and evaluating a deep learning model for digit recognition using the MNIST dataset. The implementation is done using PyTorch, following best practices in neural network design. Additionally, it explores transfer learning by adapting the trained model to recognize Greek letters (α, β, γ) and evaluates different network architectures to optimize performance.
 
-_**Applications:**_
+Applications:
 This project demonstrates fundamental techniques in computer vision and deep learning. The methods used in this project can be extended to various real-world applications, including:
 Handwritten digit recognition for document processing and digitization; Optical character recognition (OCR) for automated text entry; 
 Transfer learning techniques for classifying handwritten symbols and extending models to new datasets;
 Neural network optimization to improve accuracy and efficiency in deep learning tasks.
 
-_**Problems Addressed:**_
+Problems Addressed:
 Digit Recognition: A convolutional neural network (CNN) was trained to classify handwritten digits from the MNIST dataset;
 Network Evaluation: The model’s layers, filters, and learned weights were analyzed to understand how the network processes images;
 Transfer Learning on Greek Letters: The pre-trained digit recognition model was modified to classify Greek letters (α, β, γ);
